@@ -1,0 +1,10 @@
+conf t
+vlan 10
+name Dados
+end
+
+conf t
+vlan 20
+name Voz
+end
+
