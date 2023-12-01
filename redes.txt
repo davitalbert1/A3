@@ -1,6 +1,6 @@
 Sub-Rede filial A:
 
-2^8 = 256 endereços
+2^8 = 255 endereços
 Mascara: 255.255.255.0
 
 IP: 192.168.0.1/24
@@ -10,7 +10,7 @@ Ultimo: 11111111.11111111.11111111.111111110
 BroadCast: 11111111.11111111.11111111.11111111
 Mascara: 11111111.11111111.11111111.00000000
 
-Sub-rede 1:
+Sub-rede 1 (central de suporte):
 
 2^7 = 128 endereços
 255.255.255.128/25
@@ -20,7 +20,7 @@ Ultimo: 11111111.11111111.11111111.1/11111110
 BroadCast: 11111111.11111111.11111111.1/1111111
 Mascara: 11111111.11111111.11111111.1/0000000
 
-Sub-rede 2:
+Sub-rede 2 (central de desenvolvimento):
 
 2^6 = 64 endereços
 255.255.255.192/26
@@ -30,7 +30,7 @@ Ultimo: 11111111.11111111.11111111.11/1111110
 BroadCast: 11111111.11111111.11111111.11/111111
 Mascara: 11111111.11111111.11111111.11/000000
 
-Sub-rede 3:
+Sub-rede 3 (central de processamento de dados):
 
 2^5 = 32 endereços
 255.255.255.224/27
