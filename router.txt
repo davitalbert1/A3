@@ -1,0 +1,28 @@
+R1:
+
+enable
+
+configure terminal
+
+interface fastEthernet 0/0
+
+ip address 10.1.1.1 255.255.255.0 
+
+no shutdown
+
+exit
+
+
+R2:
+
+enable
+
+configure terminal
+
+interface fastEthernet 0/0
+
+ip address 10.1.1.2 255.255.255.0 
+
+no shutdown
+
+exit
